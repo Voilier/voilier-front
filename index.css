@@ -1,0 +1,23 @@
+.content-grid {
+  max-width: 1200px;
+}
+
+.centered {
+  text-align:center;
+}
+
+.content {
+  max-width:1200;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
