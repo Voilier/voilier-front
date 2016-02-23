@@ -19,6 +19,7 @@
     "bootstrap": "~3.3.6",
     "font-awesome": "~4.5.0",
     "material-design-icons": "~2.2.0",
-    "material-design-lite": "~1.1.1"
+    "material-design-lite": "~1.1.1",
+    "mdi": "~1.4.57"
   }
 }
