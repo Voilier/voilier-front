@@ -2,6 +2,25 @@
   max-width: 1200px;
 }
 
+.title {
+  font-family:"et-book";
+  font-size: 4em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.sub-title {
+  font-family:"et-book";
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.sub-sub-title {
+  font-family:"et-book";
+  font-style: italic;
+  font-size: 2em;
+}
+
 .centered-text {
   text-align:center;
 }
@@ -22,10 +41,55 @@
   width: 320px;
   height: 320px;
 }
-.demo-card-square > .mdl-card__title {
+.mdl-card__title {
   color: #fff;
   background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+    url('images/') top right 100% no-repeat #46B6AC;
+}
+
+.carnation {
+  color: #000 !important;
+  font-size: 2em;
+  background:
+    url('images/projects/carnation_img.jpg') top right 100% no-repeat #46B6AC;
+  background-size: 400px;
+}
+
+.cityCoverage {
+  color: #000 !important;
+  font-size: 2em;
+  background:
+    url('images/projects/city_coverage_img.gif') top -2px right 100% no-repeat #46B6AC;
+  background-size: 320px;
+}
+
+.rentCalculator {
+  color: #000 !important;
+  font-size: 2em;
+  background:
+    url('images/projects/rentCalculator.png') bottom 15% right 90% no-repeat #46B6AC;
+  background-size: 700px;
+}
+
+.mdi-large {
+  font-size: 32px !important;
+}
+
+/* If we need to style the color of the social button */
+.mdi-twitter {
+}
+
+.mdi-facebook {
+}
+
+.mdi-linkedin {
+}
+
+.mdi-github-box {
+}
+
+.social-box {
+  text-align: center;
 }
 
 .circle-avatar {
