@@ -107,10 +107,30 @@ overflow:hidden;
     box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
 }
 
-/* Gradient transparent - color - transparent */
+/* Gradient transparent - color - transparent */ 
 hr {
   border-top: 0px solid #ccc;
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); 
+}
+
+.profile-status {
+  text-align:center;
+  margin-bottom:0px;
+}
+
+.profile-education {
+  margin-top:0px;
+  text-align:center;
+} 
+
+.profile-interest-title {
+  text-decoration: underline;
+  display:inline-block;
+  margin-bottom:0px;
+}
+
+.profile-interest-description {
+  font-style: italic;
 }
