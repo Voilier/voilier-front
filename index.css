@@ -3,15 +3,14 @@
 }
 
 .title {
-  font-family:"et-book";
-  font-size: 4em;
-  font-style: italic;
-  text-decoration: underline;
+font-family: 'Old Standard TT', serif;
+  font-size: 8em;
+  /* font-style: italic; */
+  /* text-decoration: underline; */
 }
 
 .sub-title {
-  font-family:"et-book";
-  font-style: italic;
+  font-family: 'Old Standard TT', serif;
   text-decoration: underline;
 }
 
