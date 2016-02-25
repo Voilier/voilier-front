@@ -1,9 +1,13 @@
+body {
+  background-color: #D5EBF2;
+}
+
 .content-grid {
   max-width: 1200px;
 }
 
 .title {
-font-family: 'Old Standard TT', serif;
+  font-family: 'Old Standard TT', serif;
   font-size: 8em;
   /* font-style: italic; */
 }
@@ -41,9 +45,9 @@ font-family: 'Old Standard TT', serif;
 }
 
 .mdl-card__title-text {
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-overflow:hidden;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  overflow:hidden;
   padding: 5px;
 }
 
@@ -80,39 +84,57 @@ overflow:hidden;
 }
 
 /* If we need to style the color of the social button */
+.mdi-earth {
+  color: blue;
+}
+
+.mdi-email {
+  color: #BD891A;
+}
+
 .mdi-twitter {
+  color: #1A9ABD;
 }
 
 .mdi-facebook {
+  color: #1A61BD;
 }
 
 .mdi-linkedin {
+  color: #1A8CBD;
 }
 
 .mdi-github-box {
+  color: black;
 }
 
 .social-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-.circle-avatar {
-    width:128px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-
-    -webkit-box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
-    -moz-box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
-    box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
+.social-box a {
+  text-decoration: none;
 }
 
-/* Gradient transparent - color - transparent */ 
+.circle-avatar {
+  width:128px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
+  -moz-box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
+  box-shadow: 10px 7px 14px -8px rgba(0,0,0,0.61);
+}
+
+/* Gradient transparent - color - transparent */
 hr {
   border-top: 0px solid #ccc;
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
 }
 
 .profile-status {
@@ -123,11 +145,15 @@ hr {
 .profile-education {
   margin-top:0px;
   text-align:center;
-} 
+}
+
+.profile-interest {
+  padding: 5px;
+}
 
 .profile-interest-title {
   text-decoration: underline;
-  display:inline-block;
+  display: inline-block;
   margin-bottom:0px;
 }
 
