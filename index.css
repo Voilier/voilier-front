@@ -3,11 +3,10 @@ html {
 }
 
 body {
-  background: linear-gradient(#D5EBF2, white);
+  background: linear-gradient(#E3E3E3, white);
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .content-grid {
